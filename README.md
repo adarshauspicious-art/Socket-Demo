@@ -39,7 +39,7 @@ project/
 
 ```bash
 git clone <your-repository-url>
-cd websocket-chat
+cd webSocket
 ```
 
 ### 2. Install dependencies
