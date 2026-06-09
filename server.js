@@ -8,7 +8,7 @@ wss.on("connection", (socket) => {
   socket.on("message", (raw) => {
     let data;
 
-    // 1. parse safely
+    // 1. parse safely 
     try {
       data = JSON.parse(raw.toString());
     } catch (err) {
